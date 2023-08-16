@@ -13,8 +13,9 @@ def data_entry():
 
 
 def tip_calculation(total_invoice, tip_percentage):
-    result = total_invoice * (tip_percentage / 100)
-    print(result)
+    tip_amount = total_invoice * (tip_percentage / 100)
+    print("Montant du pourboire : {}".format(tip_amount))
+    
 
 
 if __name__ == "__main__":
